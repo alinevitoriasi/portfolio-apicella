@@ -1,30 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Yan Apicella — Editor de Vídeo</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Space+Mono:wght@400;700&display=swap"
-            rel="stylesheet">
-        <link href="style.css" rel="stylesheet" type="text/css" />
-    </head>
 
-    <body>
-        <div class="cursor" id="cursor"></div>
-        <div class="cursor-ring" id="cursor-ring"></div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yan Apicella — Editor de Vídeo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=play_arrow" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#portfolio">Portfólio</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#process">Processo</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
 
-        <script src="./script.js"></script>
-    </body>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#process">Processo</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-tag">Editor de Vídeo</div>
+    <h1 class="hero-title">
+      Yan<br><em>Apicella</em>
+    </h1>
+    <p class="hero-sub">
+      Transformo suas ideias em vídeos leves, dinâmicos e fáceis de assistir.<br/>
+      Do corte à edição — cada frame importa.
+    </p>
+    <div class="hero-cta">
+      <a href="#portfolio" class="btn btn-primary">
+        <span class="material-symbols-outlined"> play_arrow</span>
+        Ver Portfólio
+      </a>
+      <a href="#contact" class="btn btn-ghost">Falar Comigo</a>
+    </div>
+  </section>
+
+
+  <script src="./script.js"></script>
+</body>
+
 </html>
