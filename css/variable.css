@@ -1,0 +1,14 @@
+:root {
+    --black: #080808;
+    --off-black: #111111;
+    --carbon: #1a1a1a;
+    --lead: #2a2a2a;
+    --muted: #555;
+    --mid: #888;
+    --silver: #bbb;
+    --white: #f5f3ee;
+    --accent: #0078ff;
+    --accent2: #163b66;
+    --red: #d63031;
+    --gap: clamp(4rem, 10vw, 9rem);
+}
