@@ -391,6 +391,16 @@ h1.hero-title em {
 
 
 /* PROCESS */
+
+
+.process-section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    margin-top: 3rem;
+    align-items: start;
+}
+
 .process-section {
     position: relative;
 }
@@ -413,6 +423,16 @@ h1.hero-title em {
 
 .process-step:hover {
     background: var(--carbon);
+}
+.process-video{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.process-video video{
+    height:500px;
+    /* width:100%; */
 }
 
 .step-num {
