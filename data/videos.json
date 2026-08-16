@@ -1,0 +1,60 @@
+[
+  {
+    "type": "youtube",
+    "videoId": "8hWPu7GdEjA",
+    "category": "Youtube - 116 mil visualizações",
+    "title": "Cortes do Stag",
+    "featured": false
+  },
+  {
+    "type": "youtube",
+    "videoId": "YetNejat0Mg",
+    "category": "YouTube - 4,7 mil visualizações",
+    "title": "Braune - Esportes",
+    "featured": true
+  },
+  {
+    "type": "youtube",
+    "videoId": "B_vaN2SfnX4",
+    "category": "Youtube - 1,4 mil visualizações",
+    "title": "FogãoNET",
+    "alt": "FogãoNET",
+    "featured": false
+  },
+  {
+    "type": "youtube",
+    "videoId": "q772SIXuH-Q",
+    "category": "YouTube - 9,4 mil visualizações",
+    "title": "Cortes do Ludgero",
+    "featured": true
+  },
+  {
+    "type": "youtube",
+    "videoId": "ha-O1WcwCLg",
+    "category": "YouTube - 271 mil visualizações",
+    "title": "Cortes do Stag",
+    "featured": true
+  },
+  {
+    "type": "youtube",
+    "videoId": "V13-M0kohu4",
+    "category": "YouTube - 9,2 mil visualizações",
+    "title": "Camisa 13",
+    "featured": true
+  },
+  {
+    "type": "youtube",
+    "videoId": "vfiPMwGthSY",
+    "category": "Youtube - 2,8 mil visualizações",
+    "title": "Dekin",
+    "featured": false
+  },
+  {
+    "type": "spotify",
+    "embedUrl": "https://open.spotify.com/embed/episode/4JUqGkZNmwdFlaxqqxpQhd/video?utm_source=generator",
+    "category": "SPOTIFY",
+    "title": "eSports101",
+    "thumbnail": "../assets/thumb-esports101.jpg",
+    "featured": false
+  }
+]

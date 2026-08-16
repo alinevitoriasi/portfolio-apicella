@@ -1,0 +1,58 @@
+[
+    {
+        "type": "Tiktok",
+        "title": "DEKIN",
+        "client": "eSports101",
+        "thumbnail": "../assets/thumbtiktok.jpg",
+        "video": "https://open.spotify.com/embed/episode/4JUqGkZNmwdFlaxqqxpQhd/video?utm_source=generator"
+    },
+    {
+        "type": "Instagram",
+        "title": "CANAL DO MEDEIROS",
+        "client": "CAMISA13",
+        "thumbnail": "../assets/thumb-instagram.jpeg",
+        "video": "https://www.youtube.com/embed//V13-M0kohu4"
+    },
+    {
+        "type": "Tiktok",
+        "title": "CAMISA 13",
+        "client": "eSports101",
+        "thumbnail": "../assets/thumb-tiktok2.jpg",
+        "video": "https://open.spotify.com/embed/episode/4JUqGkZNmwdFlaxqqxpQhd/video?utm_source=generator"
+    },
+    {
+        "type": "Tiktok",
+        "title": "DEKIN",
+        "client": "eSports101",
+        "thumbnail": "../assets/thumbtiktok.jpg",
+        "video": "https://open.spotify.com/embed/episode/4JUqGkZNmwdFlaxqqxpQhd/video?utm_source=generator"
+    },
+    {
+        "type": "Instagram",
+        "title": "CANAL DO MEDEIROS",
+        "client": "CAMISA13",
+        "thumbnail": "../assets/thumb-instagram.jpeg",
+        "video": "https://www.youtube.com/embed//V13-M0kohu4"
+    },
+    {
+        "type": "Tiktok",
+        "title": "CAMISA 13",
+        "client": "eSports101",
+        "thumbnail": "../assets/thumb-tiktok2.jpg",
+        "video": "https://open.spotify.com/embed/episode/4JUqGkZNmwdFlaxqqxpQhd/video?utm_source=generator"
+    },
+    {
+        "type": "Tiktok",
+        "title": "DEKIN",
+        "client": "eSports101",
+        "thumbnail": "../assets/thumbtiktok.jpg",
+        "video": "https://open.spotify.com/embed/episode/4JUqGkZNmwdFlaxqqxpQhd/video?utm_source=generator"
+    },
+    {
+        "type": "Instagram",
+        "title": "CANAL DO MEDEIROS",
+        "client": "CAMISA13",
+        "thumbnail": "../assets/thumb-instagram.jpeg",
+        "video": "https://www.youtube.com/embed//V13-M0kohu4"
+    }
+]
