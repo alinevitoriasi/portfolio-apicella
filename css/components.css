@@ -126,6 +126,23 @@
     transform: scale(1);
 }
 
+.thumb-modal {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+}
+
+
+.thumb-modal.loaded  {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+}
+
+
+
 
 .modal-iframe {
     width: 100%;
