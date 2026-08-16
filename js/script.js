@@ -29,15 +29,18 @@ document.querySelectorAll('a, button, .portfolio-item, .stat-item').forEach(el =
 
 // Modal
 function openModal(url, title) {
+    document.getElementById('modal-iframe').style.display = 'block';
     document.getElementById('modal-iframe').src = url + '?autoplay=1';
     document.getElementById('modal-title').textContent = title;
     document.getElementById('modal').classList.add('active');
     document.body.style.overflow = 'hidden';
 }
+
 function closeModal(e) {
     if (!e || e.target === document.getElementById('modal') || e.currentTarget.tagName === 'BUTTON') {
         document.getElementById('modal').classList.remove('active');
         document.getElementById('modal-iframe').src = '';
+        document.getElementById('modal-iframe').style.display = 'none';
         document.body.style.overflow = '';
     }
 }
@@ -64,20 +67,20 @@ window.addEventListener('scroll', () => {
 });
 
 function filtrarPortfolio(type, event) {
-  const youtube = document.querySelector('.portfolio-youtube');
-  const tiktok = document.querySelector('.portfolio-tiktok');
+    const youtube = document.querySelector('.portfolio-youtube');
+    const tiktok = document.querySelector('.portfolio-tiktok');
 
-  if (type === 'tiktok') {
-    youtube.style.display = 'none';
-    tiktok.style.display = 'flex';
-  } else {
-    youtube.style.display = 'grid';
-    tiktok.style.display = 'none';
-  }
+    if (type === 'tiktok') {
+        youtube.style.display = 'none';
+        tiktok.style.display = 'flex';
+    } else {
+        youtube.style.display = 'grid';
+        tiktok.style.display = 'none';
+    }
 
-  document.querySelectorAll('.skill-tag').forEach(btn => {
-    btn.classList.remove('active');
-  });
+    document.querySelectorAll('.skill-tag').forEach(btn => {
+        btn.classList.remove('active');
+    });
 
-  event.target.classList.add('active');
+    event.target.classList.add('active');
 }
